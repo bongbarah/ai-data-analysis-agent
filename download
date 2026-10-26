@@ -1,0 +1,21 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Secrets and credentials
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+.env.*
+!.env.example
+
+# Editor / operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local generated files
+cleaned_dataset.csv
